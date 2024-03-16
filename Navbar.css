@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:rgb(191, 183, 183);
+    height: 10vh;
+}
+.list{
+    display: flex;
+    margin-left: 3%;
+    padding-top: 2%;
+    list-style-type: none;
+}
+
+li{
+    padding-left: 5%;
+   font-size: 30px;
+}
+li a{
+    color: rgb(27, 14, 10);
+    text-decoration: none;
+
+}
+li a:hover{
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #db75b0;
+}
